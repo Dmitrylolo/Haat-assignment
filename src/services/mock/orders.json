@@ -1,0 +1,2284 @@
+[
+  {
+    "id": 5876787,
+    "longitude": 0.0,
+    "paymentMethod": 0,
+    "latitude": 0.0,
+    "companyId": 0,
+    "driverId": null,
+    "price": 70.0,
+    "orderDate": "2024-09-10T07:12:36.9160948",
+    "acceptedDate": null,
+    "pickedDate": null,
+    "arriveDate": null,
+    "meals": null,
+    "deals": null,
+    "estimationTime": null,
+    "driverPrice": 0.0,
+    "restaurantPrice": 70.0,
+    "address": null,
+    "withDriver": false,
+    "restaurantIds": null,
+    "discount": null,
+    "couponCode": null,
+    "restaurantId": 22,
+    "startPrepare": null,
+    "receiptCode": null,
+    "transactionCode": null,
+    "operatingSystem": null,
+    "deviceType": null,
+    "rejectedDateByRestaurant": "2024-09-10T07:21:23.8389834",
+    "rejectReason": 5,
+    "driverName": null,
+    "driverPhoneNumber": null,
+    "driverImage": null,
+    "timeToUser": 0,
+    "userFeedBack": false,
+    "donePrepare": null,
+    "driverDescription": null,
+    "appVersion": null,
+    "creditCardToken": null,
+    "cardYear": null,
+    "cardMonth": null,
+    "phoneNumber": null,
+    "userName": null,
+    "email": null,
+    "payRestaurant": 0.0,
+    "getFromClient": 0.0,
+    "deliveryType": 2,
+    "restaurantDetail": {
+      "details": {
+        "id": 22,
+        "name": "ماما باستا",
+        "name_AR": "ماما باستا",
+        "name_HE": "מאמא פסטה",
+        "name_EN": "Mama Pasta",
+        "address": "الجدوع ,الشرفة",
+        "address_AR": "الجدوع ,الشرفة",
+        "address_HE": "אלג'דוע",
+        "address_EN": "Al - Jadoua'a, Al - Sharafe",
+        "latitude": 32.520368,
+        "longitude": 35.159662,
+        "havePrivateDelivery": false,
+        "phoneNumber": "972503030409",
+        "priority": 18,
+        "restaurantCategoryId": 0,
+        "images": [
+          {
+            "id": 6170,
+            "serverImageUrl": "images/ApplicationData/020230501105336.jpg",
+            "smallImageUrl": "images/ApplicationData/0_20230501105336_small.jpg",
+            "priority": 0
+          }
+        ],
+        "workingHours": [
+          {
+            "dayOfWeek": 7,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 4,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 6,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 3,
+            "fromHour": 121,
+            "toHour": 1050,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-01T17:30:00"
+          },
+          {
+            "dayOfWeek": 1,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 2,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 5,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          }
+        ],
+        "icon": "images/BusinessIcons/2220240612112133.jpg",
+        "smallIcon": "images/BusinessIcons/22_20240612112133_small.jpg",
+        "status": 1
+      },
+      "meals": [
+        {
+          "id": 630345,
+          "quantity": 1,
+          "mealContents": [
+            {
+              "id": 315626,
+              "type": 1,
+              "price": 5.0,
+              "smallImageUrl": "images/MealContents/2462_20211122083923_small.jpg",
+              "serverImageUrl": "images/MealContents/246220211122103923.jpg",
+              "name": "زيتون اخضر",
+              "name_AR": "زيتون اخضر",
+              "name_EN": "Green Olive",
+              "name_HE": "זיתים ירוקים",
+              "name_FR": null,
+              "qty": 1,
+              "mealContentType": 0,
+              "group": 0,
+              "priority": 0,
+              "hideExtra": false,
+              "isPizza": false,
+              "mealContentPrinting": 0
+            }
+          ],
+          "smallImage": "images/Meals/4707d307-9d5d-447b-8284-56c196f1a542.jpg20201020111223.jpg",
+          "price": 65.0,
+          "serverImage": "images/Meals/4707d307-9d5d-447b-8284-56c196f1a542.jpg20201020111223.jpg",
+          "blurhash": "",
+          "name": "بيتسا وسط",
+          "name_AR": "بيتسا وسط",
+          "name_EN": "Medium Pizza",
+          "name_HE": "פיצה בינוני",
+          "name_FR": "",
+          "namesDictionary": null,
+          "isPizza": true,
+          "prioirty": 4,
+          "mealTypePriority": 18,
+          "isPartialMealContentPricing": true,
+          "finalPriceToDisplay": 65.0,
+          "finalPriceOfExtrasToDisplay": 5.0,
+          "finalPriceWithExtrasToDisplay": 70.0
+        }
+      ],
+      "deals": [],
+      "products": []
+    },
+    "tokenCardType": 0,
+    "areaId": null,
+    "locationAccuracy": null,
+    "serviceFee": 0.0,
+    "paymentMethodId": null,
+    "deliveryFeeDetails": {
+      "taskCost": 0.0,
+      "userFee": 0.0,
+      "originalUserFee": 0.0,
+      "userExtraFees": [],
+      "restaurantFeeCoverage": 0.0,
+      "haatMarketingFeeCoverage": 0.0,
+      "haatOperationFeeCoverage": 0.0,
+      "userPricingModel": 0,
+      "driverPricingModel": 0
+    },
+    "l4digits": null,
+    "currencyData": {
+      "symbol": "NIS",
+      "names": {
+        "ar": "شاقل",
+        "en-US": "Shekel",
+        "he": "שקל"
+      }
+    },
+    "isCibus": false,
+    "remakeDetails": null,
+    "isRemake": false,
+    "isCanceled": true,
+    "cancellationReason": "Order Cancelled",
+    "cocaColaCampaignDetails": {
+      "hasCocaColaBrand": false,
+      "isDone": false
+    },
+    "productReplacementSuggestions": [],
+    "customerNotes": null,
+    "posOrderId": null,
+    "credits": 0.0,
+    "scheduledOrderDetails": null,
+    "invoices": [],
+    "referenceNumber": null
+  },
+  {
+    "id": 5876786,
+    "longitude": 0.0,
+    "paymentMethod": 0,
+    "latitude": 0.0,
+    "companyId": 0,
+    "driverId": null,
+    "price": 70.0,
+    "orderDate": "2024-09-10T07:04:08.3282905",
+    "acceptedDate": null,
+    "pickedDate": null,
+    "arriveDate": null,
+    "meals": null,
+    "deals": null,
+    "estimationTime": 15,
+    "driverPrice": 0.0,
+    "restaurantPrice": 70.0,
+    "address": null,
+    "withDriver": false,
+    "restaurantIds": null,
+    "discount": null,
+    "couponCode": null,
+    "restaurantId": 22,
+    "startPrepare": "2024-09-10T07:21:15.6358684",
+    "receiptCode": null,
+    "transactionCode": null,
+    "operatingSystem": null,
+    "deviceType": null,
+    "rejectedDateByRestaurant": null,
+    "rejectReason": null,
+    "driverName": null,
+    "driverPhoneNumber": null,
+    "driverImage": null,
+    "timeToUser": 0,
+    "userFeedBack": false,
+    "donePrepare": null,
+    "driverDescription": null,
+    "appVersion": null,
+    "creditCardToken": null,
+    "cardYear": null,
+    "cardMonth": null,
+    "phoneNumber": null,
+    "userName": null,
+    "email": null,
+    "payRestaurant": 0.0,
+    "getFromClient": 0.0,
+    "deliveryType": 2,
+    "restaurantDetail": {
+      "details": {
+        "id": 22,
+        "name": "ماما باستا",
+        "name_AR": "ماما باستا",
+        "name_HE": "מאמא פסטה",
+        "name_EN": "Mama Pasta",
+        "address": "الجدوع ,الشرفة",
+        "address_AR": "الجدوع ,الشرفة",
+        "address_HE": "אלג'דוע",
+        "address_EN": "Al - Jadoua'a, Al - Sharafe",
+        "latitude": 32.520368,
+        "longitude": 35.159662,
+        "havePrivateDelivery": false,
+        "phoneNumber": "972503030409",
+        "priority": 18,
+        "restaurantCategoryId": 0,
+        "images": [
+          {
+            "id": 6170,
+            "serverImageUrl": "images/ApplicationData/020230501105336.jpg",
+            "smallImageUrl": "images/ApplicationData/0_20230501105336_small.jpg",
+            "priority": 0
+          }
+        ],
+        "workingHours": [
+          {
+            "dayOfWeek": 7,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 4,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 6,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 3,
+            "fromHour": 121,
+            "toHour": 1050,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-01T17:30:00"
+          },
+          {
+            "dayOfWeek": 1,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 2,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 5,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          }
+        ],
+        "icon": "images/BusinessIcons/2220240612112133.jpg",
+        "smallIcon": "images/BusinessIcons/22_20240612112133_small.jpg",
+        "status": 1
+      },
+      "meals": [
+        {
+          "id": 630345,
+          "quantity": 1,
+          "mealContents": [
+            {
+              "id": 315626,
+              "type": 1,
+              "price": 5.0,
+              "smallImageUrl": "images/MealContents/2462_20211122083923_small.jpg",
+              "serverImageUrl": "images/MealContents/246220211122103923.jpg",
+              "name": "زيتون اخضر",
+              "name_AR": "زيتون اخضر",
+              "name_EN": "Green Olive",
+              "name_HE": "זיתים ירוקים",
+              "name_FR": null,
+              "qty": 1,
+              "mealContentType": 0,
+              "group": 0,
+              "priority": 0,
+              "hideExtra": false,
+              "isPizza": false,
+              "mealContentPrinting": 0
+            }
+          ],
+          "smallImage": "images/Meals/4707d307-9d5d-447b-8284-56c196f1a542.jpg20201020111223.jpg",
+          "price": 65.0,
+          "serverImage": "images/Meals/4707d307-9d5d-447b-8284-56c196f1a542.jpg20201020111223.jpg",
+          "blurhash": "",
+          "name": "بيتسا وسط",
+          "name_AR": "بيتسا وسط",
+          "name_EN": "Medium Pizza",
+          "name_HE": "פיצה בינוני",
+          "name_FR": "",
+          "namesDictionary": null,
+          "isPizza": true,
+          "prioirty": 4,
+          "mealTypePriority": 18,
+          "isPartialMealContentPricing": true,
+          "finalPriceToDisplay": 65.0,
+          "finalPriceOfExtrasToDisplay": 5.0,
+          "finalPriceWithExtrasToDisplay": 70.0
+        }
+      ],
+      "deals": [],
+      "products": []
+    },
+    "tokenCardType": 0,
+    "areaId": null,
+    "locationAccuracy": null,
+    "serviceFee": 0.0,
+    "paymentMethodId": null,
+    "deliveryFeeDetails": {
+      "taskCost": 0.0,
+      "userFee": 0.0,
+      "originalUserFee": 0.0,
+      "userExtraFees": [],
+      "restaurantFeeCoverage": 0.0,
+      "haatMarketingFeeCoverage": 0.0,
+      "haatOperationFeeCoverage": 0.0,
+      "userPricingModel": 0,
+      "driverPricingModel": 0
+    },
+    "l4digits": null,
+    "currencyData": {
+      "symbol": "NIS",
+      "names": {
+        "ar": "شاقل",
+        "en-US": "Shekel",
+        "he": "שקל"
+      }
+    },
+    "isCibus": false,
+    "remakeDetails": null,
+    "isRemake": false,
+    "isCanceled": false,
+    "cancellationReason": null,
+    "cocaColaCampaignDetails": {
+      "hasCocaColaBrand": false,
+      "isDone": false
+    },
+    "productReplacementSuggestions": [],
+    "customerNotes": null,
+    "posOrderId": null,
+    "credits": 0.0,
+    "scheduledOrderDetails": null,
+    "invoices": [],
+    "referenceNumber": null
+  },
+  {
+    "id": 5876329,
+    "longitude": 35.15734098851681,
+    "paymentMethod": 0,
+    "latitude": 32.52668768545097,
+    "companyId": 0,
+    "driverId": "3ff2d4ac-5f83-4e0f-a043-6cea7a768486",
+    "price": 44.0,
+    "orderDate": "2024-08-25T12:35:24.1329204",
+    "acceptedDate": "2024-08-25T12:42:18.7391205",
+    "pickedDate": "2024-08-25T12:43:18.9992025",
+    "arriveDate": "2024-08-25T12:51:46.5047204",
+    "meals": null,
+    "deals": null,
+    "estimationTime": 9,
+    "driverPrice": 9.0,
+    "restaurantPrice": 35.0,
+    "address": null,
+    "withDriver": true,
+    "restaurantIds": null,
+    "discount": null,
+    "couponCode": null,
+    "restaurantId": 5141,
+    "startPrepare": "2024-08-25T12:35:47.502251",
+    "receiptCode": null,
+    "transactionCode": null,
+    "operatingSystem": null,
+    "deviceType": null,
+    "rejectedDateByRestaurant": null,
+    "rejectReason": null,
+    "driverName": "test driver don't delete",
+    "driverPhoneNumber": "",
+    "driverImage": null,
+    "timeToUser": 15,
+    "userFeedBack": false,
+    "donePrepare": null,
+    "driverDescription": null,
+    "appVersion": null,
+    "creditCardToken": null,
+    "cardYear": null,
+    "cardMonth": null,
+    "phoneNumber": null,
+    "userName": null,
+    "email": null,
+    "payRestaurant": 0.0,
+    "getFromClient": 0.0,
+    "deliveryType": 1,
+    "restaurantDetail": {
+      "details": {
+        "id": 5141,
+        "name": "مطعم بونجور للمشاوي",
+        "name_AR": "مطعم بونجور للمشاوي",
+        "name_HE": "מסעדת בונג'ור גריל",
+        "name_EN": "Bonjour Grill Restaurant",
+        "address": "باقة الغربية - شارع القدس",
+        "address_AR": "باقة الغربية - شارع القدس",
+        "address_HE": "באקה אל-גרבייה",
+        "address_EN": "Baqa al-Gharbiyye",
+        "latitude": 32.53736459583536,
+        "longitude": 35.14998654052736,
+        "havePrivateDelivery": false,
+        "phoneNumber": "046996599",
+        "priority": 0,
+        "restaurantCategoryId": 0,
+        "images": [
+          {
+            "id": 8819,
+            "serverImageUrl": "images/ApplicationData/0_Restaurant_Images20211104195319.jpg",
+            "smallImageUrl": "images/ApplicationData/0_Restaurant_Images_20211104175319_small.jpg",
+            "priority": 1
+          }
+        ],
+        "workingHours": [
+          {
+            "dayOfWeek": 1,
+            "fromHour": 420,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 3,
+            "fromHour": 420,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 4,
+            "fromHour": 420,
+            "toHour": 1090,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T18:10:00"
+          },
+          {
+            "dayOfWeek": 5,
+            "fromHour": 420,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 7,
+            "fromHour": 420,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 6,
+            "fromHour": 540,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T09:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 2,
+            "fromHour": 420,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          }
+        ],
+        "icon": "images/ApplicationData/12420230613082612.jpg",
+        "smallIcon": "images/ApplicationData/124_20230613082612_small.jpg",
+        "status": 4
+      },
+      "meals": [
+        {
+          "id": 631227,
+          "quantity": 1,
+          "mealContents": [],
+          "smallImage": "images/Meals/418420230125150720.jpg",
+          "price": 35.0,
+          "serverImage": "images/Meals/418420230125150720.jpg",
+          "blurhash": "",
+          "name": "رغيف برجيت",
+          "name_AR": "رغيف برجيت",
+          "name_EN": "Boneless Chicken Pita",
+          "name_HE": "פיתה ברגית",
+          "name_FR": "",
+          "namesDictionary": null,
+          "isPizza": false,
+          "prioirty": 4,
+          "mealTypePriority": 6,
+          "isPartialMealContentPricing": true,
+          "finalPriceToDisplay": 35.0,
+          "finalPriceOfExtrasToDisplay": 0.0,
+          "finalPriceWithExtrasToDisplay": 35.0
+        }
+      ],
+      "deals": [],
+      "products": []
+    },
+    "tokenCardType": 0,
+    "areaId": null,
+    "locationAccuracy": null,
+    "serviceFee": 0.0,
+    "paymentMethodId": null,
+    "deliveryFeeDetails": {
+      "taskCost": 9.0,
+      "userFee": 9.0,
+      "originalUserFee": 0.0,
+      "userExtraFees": [],
+      "restaurantFeeCoverage": 0.0,
+      "haatMarketingFeeCoverage": 0.0,
+      "haatOperationFeeCoverage": 0.0,
+      "userPricingModel": 1,
+      "driverPricingModel": 2
+    },
+    "l4digits": null,
+    "currencyData": {
+      "symbol": "NIS",
+      "names": {
+        "ar": "شاقل",
+        "en-US": "Shekel",
+        "he": "שקל"
+      }
+    },
+    "isCibus": false,
+    "remakeDetails": null,
+    "isRemake": false,
+    "isCanceled": false,
+    "cancellationReason": null,
+    "cocaColaCampaignDetails": {
+      "hasCocaColaBrand": false,
+      "isDone": false
+    },
+    "productReplacementSuggestions": [],
+    "customerNotes": null,
+    "posOrderId": null,
+    "credits": 0.0,
+    "scheduledOrderDetails": null,
+    "invoices": [],
+    "referenceNumber": null
+  },
+  {
+    "id": 5876311,
+    "longitude": 35.15725716948509,
+    "paymentMethod": 0,
+    "latitude": 32.52666083036455,
+    "companyId": 0,
+    "driverId": "3ff2d4ac-5f83-4e0f-a043-6cea7a768486",
+    "price": 129.0,
+    "orderDate": "2024-08-25T08:55:37.2643463",
+    "acceptedDate": "2024-08-25T12:37:58.2948825",
+    "pickedDate": "2024-08-25T12:39:21.7185346",
+    "arriveDate": "2024-08-25T12:47:45.5086256",
+    "meals": null,
+    "deals": null,
+    "estimationTime": 49,
+    "driverPrice": 9.0,
+    "restaurantPrice": 120.0,
+    "address": null,
+    "withDriver": true,
+    "restaurantIds": null,
+    "discount": null,
+    "couponCode": null,
+    "restaurantId": 5140,
+    "startPrepare": "2024-08-25T08:55:50.9014351",
+    "receiptCode": null,
+    "transactionCode": null,
+    "operatingSystem": null,
+    "deviceType": null,
+    "rejectedDateByRestaurant": null,
+    "rejectReason": null,
+    "driverName": "test driver don't delete",
+    "driverPhoneNumber": "",
+    "driverImage": null,
+    "timeToUser": 15,
+    "userFeedBack": false,
+    "donePrepare": null,
+    "driverDescription": null,
+    "appVersion": null,
+    "creditCardToken": null,
+    "cardYear": null,
+    "cardMonth": null,
+    "phoneNumber": null,
+    "userName": null,
+    "email": null,
+    "payRestaurant": 0.0,
+    "getFromClient": 0.0,
+    "deliveryType": 1,
+    "restaurantDetail": {
+      "details": {
+        "id": 5140,
+        "name": "حلويات العجائب",
+        "name_AR": "حلويات العجائب",
+        "name_HE": "ממתקי אלעגאייב",
+        "name_EN": "Al - Ajaeb Sweets",
+        "address": "عين المغارة",
+        "address_AR": "عين المغارة",
+        "address_HE": "עין אלמג'ארה",
+        "address_EN": "Ein Al Magara",
+        "latitude": 32.53789876157824,
+        "longitude": 35.14502768249512,
+        "havePrivateDelivery": false,
+        "phoneNumber": "046312249",
+        "priority": 0,
+        "restaurantCategoryId": 0,
+        "images": [
+          {
+            "id": 8818,
+            "serverImageUrl": "images/ApplicationData/0_Restaurant_Images20220101092217.jpg",
+            "smallImageUrl": "images/ApplicationData/0_Restaurant_Images_20220101072217_small.jpg",
+            "priority": 0
+          }
+        ],
+        "workingHours": [
+          {
+            "dayOfWeek": 2,
+            "fromHour": 360,
+            "toHour": 1400,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T23:20:00"
+          },
+          {
+            "dayOfWeek": 3,
+            "fromHour": 360,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 4,
+            "fromHour": 360,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 5,
+            "fromHour": 360,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 1,
+            "fromHour": 360,
+            "toHour": 1245,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T20:45:00"
+          },
+          {
+            "dayOfWeek": 6,
+            "fromHour": 360,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 7,
+            "fromHour": 360,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          }
+        ],
+        "icon": "images/ApplicationData/70_icon20220101082903.jpg",
+        "smallIcon": "images/ApplicationData/70_icon_20220101062903_small.jpg",
+        "status": 4
+      },
+      "meals": [
+        {
+          "id": 631094,
+          "quantity": 1,
+          "mealContents": [],
+          "smallImage": "images/Meals/33b5b710-6567-4ba2-b217-cb28c82d0ffc.jpg20210414124632.jpg",
+          "price": 120.0,
+          "serverImage": "images/Meals/33b5b710-6567-4ba2-b217-cb28c82d0ffc.jpg20210414124632.jpg",
+          "blurhash": "",
+          "name": "كيلو اصابع تركية حلبي",
+          "name_AR": "كيلو اصابع تركية حلبي",
+          "name_EN": "Halabi Turkish Sticks 1 Kg",
+          "name_HE": "קילו אצבעות טורקית",
+          "name_FR": "",
+          "namesDictionary": null,
+          "isPizza": false,
+          "prioirty": 5,
+          "mealTypePriority": 10,
+          "isPartialMealContentPricing": true,
+          "finalPriceToDisplay": 120.0,
+          "finalPriceOfExtrasToDisplay": 0.0,
+          "finalPriceWithExtrasToDisplay": 120.0
+        }
+      ],
+      "deals": [],
+      "products": []
+    },
+    "tokenCardType": 0,
+    "areaId": null,
+    "locationAccuracy": null,
+    "serviceFee": 0.0,
+    "paymentMethodId": null,
+    "deliveryFeeDetails": {
+      "taskCost": 9.0,
+      "userFee": 9.0,
+      "originalUserFee": 0.0,
+      "userExtraFees": [],
+      "restaurantFeeCoverage": 0.0,
+      "haatMarketingFeeCoverage": 0.0,
+      "haatOperationFeeCoverage": 0.0,
+      "userPricingModel": 1,
+      "driverPricingModel": 2
+    },
+    "l4digits": null,
+    "currencyData": {
+      "symbol": "NIS",
+      "names": {
+        "ar": "شاقل",
+        "en-US": "Shekel",
+        "he": "שקל"
+      }
+    },
+    "isCibus": false,
+    "remakeDetails": null,
+    "isRemake": false,
+    "isCanceled": false,
+    "cancellationReason": null,
+    "cocaColaCampaignDetails": {
+      "hasCocaColaBrand": false,
+      "isDone": false
+    },
+    "productReplacementSuggestions": [],
+    "customerNotes": null,
+    "posOrderId": null,
+    "credits": 0.0,
+    "scheduledOrderDetails": null,
+    "invoices": [],
+    "referenceNumber": null
+  },
+  {
+    "id": 5876309,
+    "longitude": 35.15734098851681,
+    "paymentMethod": 0,
+    "latitude": 32.52668768545097,
+    "companyId": 0,
+    "driverId": "3ff2d4ac-5f83-4e0f-a043-6cea7a768486",
+    "price": 49.0,
+    "orderDate": "2024-08-25T08:29:54.8741765",
+    "acceptedDate": "2024-08-25T08:45:40.070657",
+    "pickedDate": "2024-08-25T08:45:49.514893",
+    "arriveDate": "2024-08-25T08:45:55.5374536",
+    "meals": null,
+    "deals": null,
+    "estimationTime": 9,
+    "driverPrice": 9.0,
+    "restaurantPrice": 40.0,
+    "address": null,
+    "withDriver": true,
+    "restaurantIds": null,
+    "discount": null,
+    "couponCode": null,
+    "restaurantId": 5141,
+    "startPrepare": "2024-08-25T08:30:09.7009303",
+    "receiptCode": null,
+    "transactionCode": null,
+    "operatingSystem": null,
+    "deviceType": null,
+    "rejectedDateByRestaurant": null,
+    "rejectReason": null,
+    "driverName": "test driver don't delete",
+    "driverPhoneNumber": "",
+    "driverImage": null,
+    "timeToUser": 15,
+    "userFeedBack": false,
+    "donePrepare": "2024-08-25T08:30:15.2966502",
+    "driverDescription": null,
+    "appVersion": null,
+    "creditCardToken": null,
+    "cardYear": null,
+    "cardMonth": null,
+    "phoneNumber": null,
+    "userName": null,
+    "email": null,
+    "payRestaurant": 0.0,
+    "getFromClient": 0.0,
+    "deliveryType": 1,
+    "restaurantDetail": {
+      "details": {
+        "id": 5141,
+        "name": "مطعم بونجور للمشاوي",
+        "name_AR": "مطعم بونجور للمشاوي",
+        "name_HE": "מסעדת בונג'ור גריל",
+        "name_EN": "Bonjour Grill Restaurant",
+        "address": "باقة الغربية - شارع القدس",
+        "address_AR": "باقة الغربية - شارع القدس",
+        "address_HE": "באקה אל-גרבייה",
+        "address_EN": "Baqa al-Gharbiyye",
+        "latitude": 32.53736459583536,
+        "longitude": 35.14998654052736,
+        "havePrivateDelivery": false,
+        "phoneNumber": "046996599",
+        "priority": 0,
+        "restaurantCategoryId": 0,
+        "images": [
+          {
+            "id": 8819,
+            "serverImageUrl": "images/ApplicationData/0_Restaurant_Images20211104195319.jpg",
+            "smallImageUrl": "images/ApplicationData/0_Restaurant_Images_20211104175319_small.jpg",
+            "priority": 1
+          }
+        ],
+        "workingHours": [
+          {
+            "dayOfWeek": 1,
+            "fromHour": 420,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 3,
+            "fromHour": 420,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 4,
+            "fromHour": 420,
+            "toHour": 1090,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T18:10:00"
+          },
+          {
+            "dayOfWeek": 5,
+            "fromHour": 420,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 7,
+            "fromHour": 420,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 6,
+            "fromHour": 540,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T09:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 2,
+            "fromHour": 420,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          }
+        ],
+        "icon": "images/ApplicationData/12420230613082612.jpg",
+        "smallIcon": "images/ApplicationData/124_20230613082612_small.jpg",
+        "status": 4
+      },
+      "meals": [
+        {
+          "id": 631261,
+          "quantity": 1,
+          "mealContents": [
+            {
+              "id": 316201,
+              "type": 1,
+              "price": 0.0,
+              "smallImageUrl": "images/MealContents/4287_20211213082247_small.jpg",
+              "serverImageUrl": "images/MealContents/428720211213102247.jpg",
+              "name": "ذرة ميونز",
+              "name_AR": "ذرة ميونز",
+              "name_EN": "Corn with Mayonnaise",
+              "name_HE": "תירס עם מיוניז",
+              "name_FR": null,
+              "qty": 1,
+              "mealContentType": 0,
+              "group": 0,
+              "priority": 4,
+              "hideExtra": true,
+              "isPizza": false,
+              "mealContentPrinting": 0
+            }
+          ],
+          "smallImage": "images/Meals/48232620230125153325.jpg",
+          "price": 40.0,
+          "serverImage": "images/Meals/48232620230125153325.jpg",
+          "blurhash": "",
+          "name": "باجيت شنيتسل",
+          "name_AR": "باجيت شنيتسل",
+          "name_EN": "Schnitzel Baguette",
+          "name_HE": "בגט שניצל",
+          "name_FR": "",
+          "namesDictionary": null,
+          "isPizza": false,
+          "prioirty": 0,
+          "mealTypePriority": 5,
+          "isPartialMealContentPricing": true,
+          "finalPriceToDisplay": 40.0,
+          "finalPriceOfExtrasToDisplay": 0.0,
+          "finalPriceWithExtrasToDisplay": 40.0
+        }
+      ],
+      "deals": [],
+      "products": []
+    },
+    "tokenCardType": 0,
+    "areaId": null,
+    "locationAccuracy": null,
+    "serviceFee": 0.0,
+    "paymentMethodId": null,
+    "deliveryFeeDetails": {
+      "taskCost": 9.0,
+      "userFee": 9.0,
+      "originalUserFee": 0.0,
+      "userExtraFees": [],
+      "restaurantFeeCoverage": 0.0,
+      "haatMarketingFeeCoverage": 0.0,
+      "haatOperationFeeCoverage": 0.0,
+      "userPricingModel": 1,
+      "driverPricingModel": 2
+    },
+    "l4digits": null,
+    "currencyData": {
+      "symbol": "NIS",
+      "names": {
+        "ar": "شاقل",
+        "en-US": "Shekel",
+        "he": "שקל"
+      }
+    },
+    "isCibus": false,
+    "remakeDetails": null,
+    "isRemake": false,
+    "isCanceled": false,
+    "cancellationReason": null,
+    "cocaColaCampaignDetails": {
+      "hasCocaColaBrand": false,
+      "isDone": false
+    },
+    "productReplacementSuggestions": [],
+    "customerNotes": null,
+    "posOrderId": null,
+    "credits": 0.0,
+    "scheduledOrderDetails": null,
+    "invoices": [],
+    "referenceNumber": null
+  },
+  {
+    "id": 5876307,
+    "longitude": 35.15725716948509,
+    "paymentMethod": 0,
+    "latitude": 32.52666083036455,
+    "companyId": 0,
+    "driverId": "3ff2d4ac-5f83-4e0f-a043-6cea7a768486",
+    "price": 16.0,
+    "orderDate": "2024-08-25T08:22:55.0452522",
+    "acceptedDate": "2024-08-25T08:23:47.1349007",
+    "pickedDate": "2024-08-25T08:23:56.1651933",
+    "arriveDate": "2024-08-25T08:24:01.0582162",
+    "meals": null,
+    "deals": null,
+    "estimationTime": 9,
+    "driverPrice": 9.0,
+    "restaurantPrice": 7.0,
+    "address": null,
+    "withDriver": true,
+    "restaurantIds": null,
+    "discount": null,
+    "couponCode": null,
+    "restaurantId": 5140,
+    "startPrepare": "2024-08-25T08:23:08.8473285",
+    "receiptCode": null,
+    "transactionCode": null,
+    "operatingSystem": null,
+    "deviceType": null,
+    "rejectedDateByRestaurant": null,
+    "rejectReason": null,
+    "driverName": "test driver don't delete",
+    "driverPhoneNumber": "",
+    "driverImage": null,
+    "timeToUser": 15,
+    "userFeedBack": false,
+    "donePrepare": "2024-08-25T08:23:14.815984",
+    "driverDescription": null,
+    "appVersion": null,
+    "creditCardToken": null,
+    "cardYear": null,
+    "cardMonth": null,
+    "phoneNumber": null,
+    "userName": null,
+    "email": null,
+    "payRestaurant": 0.0,
+    "getFromClient": 0.0,
+    "deliveryType": 1,
+    "restaurantDetail": {
+      "details": {
+        "id": 5140,
+        "name": "حلويات العجائب",
+        "name_AR": "حلويات العجائب",
+        "name_HE": "ממתקי אלעגאייב",
+        "name_EN": "Al - Ajaeb Sweets",
+        "address": "عين المغارة",
+        "address_AR": "عين المغارة",
+        "address_HE": "עין אלמג'ארה",
+        "address_EN": "Ein Al Magara",
+        "latitude": 32.53789876157824,
+        "longitude": 35.14502768249512,
+        "havePrivateDelivery": false,
+        "phoneNumber": "046312249",
+        "priority": 0,
+        "restaurantCategoryId": 0,
+        "images": [
+          {
+            "id": 8818,
+            "serverImageUrl": "images/ApplicationData/0_Restaurant_Images20220101092217.jpg",
+            "smallImageUrl": "images/ApplicationData/0_Restaurant_Images_20220101072217_small.jpg",
+            "priority": 0
+          }
+        ],
+        "workingHours": [
+          {
+            "dayOfWeek": 2,
+            "fromHour": 360,
+            "toHour": 1400,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T23:20:00"
+          },
+          {
+            "dayOfWeek": 3,
+            "fromHour": 360,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 4,
+            "fromHour": 360,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 5,
+            "fromHour": 360,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 1,
+            "fromHour": 360,
+            "toHour": 1245,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T20:45:00"
+          },
+          {
+            "dayOfWeek": 6,
+            "fromHour": 360,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          },
+          {
+            "dayOfWeek": 7,
+            "fromHour": 360,
+            "toHour": 1080,
+            "fromHourDate": "2000-01-01T06:00:00",
+            "toHourDate": "2000-01-01T18:00:00"
+          }
+        ],
+        "icon": "images/ApplicationData/70_icon20220101082903.jpg",
+        "smallIcon": "images/ApplicationData/70_icon_20220101062903_small.jpg",
+        "status": 4
+      },
+      "meals": [
+        {
+          "id": 631184,
+          "quantity": 1,
+          "mealContents": [],
+          "smallImage": "images/Meals/41439620230801063709.jpg",
+          "price": 7.0,
+          "serverImage": "images/Meals/41439620230801063709.jpg",
+          "blurhash": "",
+          "name": "تريلتشيا شخصي",
+          "name_AR": "تريلتشيا شخصي",
+          "name_EN": "Individual Trileche",
+          "name_HE": "טרליצ׳ה אישית",
+          "name_FR": "",
+          "namesDictionary": null,
+          "isPizza": false,
+          "prioirty": 6,
+          "mealTypePriority": 8,
+          "isPartialMealContentPricing": true,
+          "finalPriceToDisplay": 7.0,
+          "finalPriceOfExtrasToDisplay": 0.0,
+          "finalPriceWithExtrasToDisplay": 7.0
+        }
+      ],
+      "deals": [],
+      "products": []
+    },
+    "tokenCardType": 0,
+    "areaId": null,
+    "locationAccuracy": null,
+    "serviceFee": 0.0,
+    "paymentMethodId": null,
+    "deliveryFeeDetails": {
+      "taskCost": 9.0,
+      "userFee": 9.0,
+      "originalUserFee": 0.0,
+      "userExtraFees": [],
+      "restaurantFeeCoverage": 0.0,
+      "haatMarketingFeeCoverage": 0.0,
+      "haatOperationFeeCoverage": 0.0,
+      "userPricingModel": 1,
+      "driverPricingModel": 2
+    },
+    "l4digits": null,
+    "currencyData": {
+      "symbol": "NIS",
+      "names": {
+        "ar": "شاقل",
+        "en-US": "Shekel",
+        "he": "שקל"
+      }
+    },
+    "isCibus": false,
+    "remakeDetails": null,
+    "isRemake": false,
+    "isCanceled": false,
+    "cancellationReason": null,
+    "cocaColaCampaignDetails": {
+      "hasCocaColaBrand": false,
+      "isDone": false
+    },
+    "productReplacementSuggestions": [],
+    "customerNotes": null,
+    "posOrderId": null,
+    "credits": 0.0,
+    "scheduledOrderDetails": null,
+    "invoices": [],
+    "referenceNumber": null
+  },
+  {
+    "id": 5876013,
+    "longitude": 0.0,
+    "paymentMethod": 1,
+    "latitude": 0.0,
+    "companyId": 0,
+    "driverId": null,
+    "price": 4.0,
+    "orderDate": "2024-08-11T10:58:57.6266537",
+    "acceptedDate": null,
+    "pickedDate": null,
+    "arriveDate": null,
+    "meals": null,
+    "deals": null,
+    "estimationTime": 5,
+    "driverPrice": 0.0,
+    "restaurantPrice": 4.0,
+    "address": null,
+    "withDriver": false,
+    "restaurantIds": null,
+    "discount": null,
+    "couponCode": null,
+    "restaurantId": 5164,
+    "startPrepare": "2024-08-11T10:59:03.4778004",
+    "receiptCode": 30915,
+    "transactionCode": "205368844",
+    "operatingSystem": null,
+    "deviceType": null,
+    "rejectedDateByRestaurant": null,
+    "rejectReason": null,
+    "driverName": null,
+    "driverPhoneNumber": null,
+    "driverImage": null,
+    "timeToUser": 0,
+    "userFeedBack": false,
+    "donePrepare": "2024-08-11T10:59:03.4778004",
+    "driverDescription": null,
+    "appVersion": null,
+    "creditCardToken": null,
+    "cardYear": null,
+    "cardMonth": null,
+    "phoneNumber": null,
+    "userName": null,
+    "email": null,
+    "payRestaurant": 0.0,
+    "getFromClient": 0.0,
+    "deliveryType": 2,
+    "restaurantDetail": {
+      "details": {
+        "id": 5164,
+        "name": "أرين",
+        "name_AR": "أرين",
+        "name_HE": "ארין",
+        "name_EN": "Areen",
+        "address": "أم الفحم",
+        "address_AR": "أم الفحم",
+        "address_HE": "אום אלפחם",
+        "address_EN": "UAF",
+        "latitude": 32.538545880102056,
+        "longitude": 35.14586647133451,
+        "havePrivateDelivery": false,
+        "phoneNumber": "972506456059",
+        "priority": 0,
+        "restaurantCategoryId": 0,
+        "images": [
+          {
+            "id": 8831,
+            "serverImageUrl": "images/Market/BannerImages/883120240806085943.jpg",
+            "smallImageUrl": "images/Market/BannerImages/8831_20240806085943_small.jpg",
+            "priority": 0
+          }
+        ],
+        "workingHours": [
+          {
+            "dayOfWeek": 1,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 2,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 3,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 4,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 5,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 6,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 7,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          }
+        ],
+        "icon": "images/Market/icons/markets516420240806085449_original.jpg",
+        "smallIcon": "images/Market/icons/markets516420240806085449_auto_quality.jpg",
+        "status": 4
+      },
+      "meals": [],
+      "deals": [],
+      "products": [
+        {
+          "id": 199732,
+          "name": {
+            "ar": "سيريال ببجي موبايل العالمية ب 60 شدة",
+            "en-US": "سيريال ببجي موبايل العالمية ب 60 شدة",
+            "he": "سيريال ببجي موبايل العالمية ب 60 شدة"
+          },
+          "productImages": [
+            {
+              "id": 0,
+              "priority": 0,
+              "serverImageUrl": "images/Products/215609/Images/21560920240806084916_original.jpg",
+              "smallImageUrl": "images/Products/215609/Images/21560920240806084916_auto_quality.jpg",
+              "blurhash": "LHAw6jxVD*kX_4%2RPWYA0x]$yWA"
+            }
+          ],
+          "discountPercentage": 0.0,
+          "discountPrice": 4.0,
+          "price": 4.0,
+          "quantity": 1,
+          "orderProductColors": null,
+          "orderProductSizes": null,
+          "orderProductFeatures": [],
+          "orderId": 5876013,
+          "productId": 215609,
+          "supportDynamicPricing": false,
+          "orderProductWeightUpdate": null,
+          "dynamicWeightDetails": {
+            "quantityType": 0,
+            "avgWeightPerItem": null,
+            "pricePerWeight": null,
+            "weightToPresent": null,
+            "unitDetails": {
+              "stepSize": 0.0,
+              "unitType": 0
+            }
+          },
+          "notAvailable": null,
+          "productReplacement": null,
+          "isBigItem": false,
+          "finalWeight": 0.0,
+          "finalPrice": 0.0,
+          "finalWeightToDisplay": 0.0,
+          "finalPriceToDisplay": 4.0,
+          "strikedPriceToDisplay": null,
+          "finalPriceOfExtrasToDisplay": 0.0,
+          "finalPriceWithExtrasToDisplay": 4.0,
+          "quantityTypeToDisplay": 0,
+          "unitTypeToDisplay": 0,
+          "weightBeforeUpdateToDisplay": null,
+          "priceBeforeUpdateToDisplay": null,
+          "strikedPriceBeforeUpdateToDisplay": null,
+          "dealProduct": null,
+          "orderDealProductId": null
+        }
+      ]
+    },
+    "tokenCardType": 0,
+    "areaId": null,
+    "locationAccuracy": null,
+    "serviceFee": 0.0,
+    "paymentMethodId": null,
+    "deliveryFeeDetails": {
+      "taskCost": 0.0,
+      "userFee": 0.0,
+      "originalUserFee": 0.0,
+      "userExtraFees": [],
+      "restaurantFeeCoverage": 0.0,
+      "haatMarketingFeeCoverage": 0.0,
+      "haatOperationFeeCoverage": 0.0,
+      "userPricingModel": 0,
+      "driverPricingModel": 0
+    },
+    "l4digits": "2218",
+    "currencyData": {
+      "symbol": "NIS",
+      "names": {
+        "ar": "شاقل",
+        "en-US": "Shekel",
+        "he": "שקל"
+      }
+    },
+    "isCibus": false,
+    "remakeDetails": null,
+    "isRemake": false,
+    "isCanceled": false,
+    "cancellationReason": null,
+    "cocaColaCampaignDetails": {
+      "hasCocaColaBrand": false,
+      "isDone": false
+    },
+    "productReplacementSuggestions": [],
+    "customerNotes": null,
+    "posOrderId": null,
+    "credits": 0.0,
+    "scheduledOrderDetails": null,
+    "invoices": [
+      {
+        "link": "https://im-staging.haat.delivery/invoices/faf985a0-f431-43fa-a93a-14eb39ff928a.pdf",
+        "title": {
+          "ar": "تحميل فاتورة الطلبية",
+          "en-US": "Download the order invoice",
+          "he": "הורד חשבונית ההזמנה",
+          "fr": "Téléchargez la facture de commande"
+        }
+      },
+      {
+        "link": "https://im-staging.haat.delivery/invoices/26cda278-8120-4db6-9947-f3a75e78ee79.pdf",
+        "title": {
+          "ar": "تحميل فاتورة الطلبية",
+          "en-US": "Download the order invoice",
+          "he": "הורד חשבונית ההזמנה",
+          "fr": "Téléchargez la facture de commande"
+        }
+      }
+    ],
+    "referenceNumber": 30915
+  },
+  {
+    "id": 5876012,
+    "longitude": 0.0,
+    "paymentMethod": 1,
+    "latitude": 0.0,
+    "companyId": 0,
+    "driverId": null,
+    "price": 4.0,
+    "orderDate": "2024-08-11T10:50:17.3145393",
+    "acceptedDate": null,
+    "pickedDate": null,
+    "arriveDate": null,
+    "meals": null,
+    "deals": null,
+    "estimationTime": 5,
+    "driverPrice": 0.0,
+    "restaurantPrice": 4.0,
+    "address": null,
+    "withDriver": false,
+    "restaurantIds": null,
+    "discount": null,
+    "couponCode": null,
+    "restaurantId": 5164,
+    "startPrepare": "2024-08-11T10:56:19.9737159",
+    "receiptCode": 30912,
+    "transactionCode": "205367825",
+    "operatingSystem": null,
+    "deviceType": null,
+    "rejectedDateByRestaurant": null,
+    "rejectReason": null,
+    "driverName": null,
+    "driverPhoneNumber": null,
+    "driverImage": null,
+    "timeToUser": 0,
+    "userFeedBack": false,
+    "donePrepare": "2024-08-11T10:56:19.9737159",
+    "driverDescription": null,
+    "appVersion": null,
+    "creditCardToken": null,
+    "cardYear": null,
+    "cardMonth": null,
+    "phoneNumber": null,
+    "userName": null,
+    "email": null,
+    "payRestaurant": 0.0,
+    "getFromClient": 0.0,
+    "deliveryType": 2,
+    "restaurantDetail": {
+      "details": {
+        "id": 5164,
+        "name": "أرين",
+        "name_AR": "أرين",
+        "name_HE": "ארין",
+        "name_EN": "Areen",
+        "address": "أم الفحم",
+        "address_AR": "أم الفحم",
+        "address_HE": "אום אלפחם",
+        "address_EN": "UAF",
+        "latitude": 32.538545880102056,
+        "longitude": 35.14586647133451,
+        "havePrivateDelivery": false,
+        "phoneNumber": "972506456059",
+        "priority": 0,
+        "restaurantCategoryId": 0,
+        "images": [
+          {
+            "id": 8831,
+            "serverImageUrl": "images/Market/BannerImages/883120240806085943.jpg",
+            "smallImageUrl": "images/Market/BannerImages/8831_20240806085943_small.jpg",
+            "priority": 0
+          }
+        ],
+        "workingHours": [
+          {
+            "dayOfWeek": 1,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 2,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 3,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 4,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 5,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 6,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 7,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          }
+        ],
+        "icon": "images/Market/icons/markets516420240806085449_original.jpg",
+        "smallIcon": "images/Market/icons/markets516420240806085449_auto_quality.jpg",
+        "status": 4
+      },
+      "meals": [],
+      "deals": [],
+      "products": [
+        {
+          "id": 199731,
+          "name": {
+            "ar": "سيريال ببجي موبايل العالمية ب 60 شدة",
+            "en-US": "سيريال ببجي موبايل العالمية ب 60 شدة",
+            "he": "سيريال ببجي موبايل العالمية ب 60 شدة"
+          },
+          "productImages": [
+            {
+              "id": 0,
+              "priority": 0,
+              "serverImageUrl": "images/Products/215609/Images/21560920240806084916_original.jpg",
+              "smallImageUrl": "images/Products/215609/Images/21560920240806084916_auto_quality.jpg",
+              "blurhash": "LHAw6jxVD*kX_4%2RPWYA0x]$yWA"
+            }
+          ],
+          "discountPercentage": 0.0,
+          "discountPrice": 4.0,
+          "price": 4.0,
+          "quantity": 1,
+          "orderProductColors": null,
+          "orderProductSizes": null,
+          "orderProductFeatures": [],
+          "orderId": 5876012,
+          "productId": 215609,
+          "supportDynamicPricing": false,
+          "orderProductWeightUpdate": null,
+          "dynamicWeightDetails": {
+            "quantityType": 0,
+            "avgWeightPerItem": null,
+            "pricePerWeight": null,
+            "weightToPresent": null,
+            "unitDetails": {
+              "stepSize": 0.0,
+              "unitType": 0
+            }
+          },
+          "notAvailable": null,
+          "productReplacement": null,
+          "isBigItem": false,
+          "finalWeight": 0.0,
+          "finalPrice": 0.0,
+          "finalWeightToDisplay": 0.0,
+          "finalPriceToDisplay": 4.0,
+          "strikedPriceToDisplay": null,
+          "finalPriceOfExtrasToDisplay": 0.0,
+          "finalPriceWithExtrasToDisplay": 4.0,
+          "quantityTypeToDisplay": 0,
+          "unitTypeToDisplay": 0,
+          "weightBeforeUpdateToDisplay": null,
+          "priceBeforeUpdateToDisplay": null,
+          "strikedPriceBeforeUpdateToDisplay": null,
+          "dealProduct": null,
+          "orderDealProductId": null
+        }
+      ]
+    },
+    "tokenCardType": 0,
+    "areaId": null,
+    "locationAccuracy": null,
+    "serviceFee": 0.0,
+    "paymentMethodId": null,
+    "deliveryFeeDetails": {
+      "taskCost": 0.0,
+      "userFee": 0.0,
+      "originalUserFee": 0.0,
+      "userExtraFees": [],
+      "restaurantFeeCoverage": 0.0,
+      "haatMarketingFeeCoverage": 0.0,
+      "haatOperationFeeCoverage": 0.0,
+      "userPricingModel": 0,
+      "driverPricingModel": 0
+    },
+    "l4digits": "2218",
+    "currencyData": {
+      "symbol": "NIS",
+      "names": {
+        "ar": "شاقل",
+        "en-US": "Shekel",
+        "he": "שקל"
+      }
+    },
+    "isCibus": false,
+    "remakeDetails": null,
+    "isRemake": false,
+    "isCanceled": false,
+    "cancellationReason": null,
+    "cocaColaCampaignDetails": {
+      "hasCocaColaBrand": false,
+      "isDone": false
+    },
+    "productReplacementSuggestions": [],
+    "customerNotes": null,
+    "posOrderId": null,
+    "credits": 0.0,
+    "scheduledOrderDetails": null,
+    "invoices": [
+      {
+        "link": "https://im-staging.haat.delivery/invoices/926f40a9-1122-4c1a-8d5e-d7dd34a8db4d.pdf",
+        "title": {
+          "ar": "تحميل فاتورة الطلبية",
+          "en-US": "Download the order invoice",
+          "he": "הורד חשבונית ההזמנה",
+          "fr": "Téléchargez la facture de commande"
+        }
+      },
+      {
+        "link": "https://im-staging.haat.delivery/invoices/e8bd4303-84eb-4610-aec4-2fa8f9ad177f.pdf",
+        "title": {
+          "ar": "تحميل فاتورة الطلبية",
+          "en-US": "Download the order invoice",
+          "he": "הורד חשבונית ההזמנה",
+          "fr": "Téléchargez la facture de commande"
+        }
+      }
+    ],
+    "referenceNumber": 30912
+  },
+  {
+    "id": 5875975,
+    "longitude": 0.0,
+    "paymentMethod": 0,
+    "latitude": 0.0,
+    "companyId": 0,
+    "driverId": null,
+    "price": 37.0,
+    "orderDate": "2024-08-08T08:16:12.0214937",
+    "acceptedDate": null,
+    "pickedDate": null,
+    "arriveDate": null,
+    "meals": null,
+    "deals": null,
+    "estimationTime": 10,
+    "driverPrice": 0.0,
+    "restaurantPrice": 37.0,
+    "address": null,
+    "withDriver": false,
+    "restaurantIds": null,
+    "discount": null,
+    "couponCode": null,
+    "restaurantId": 5125,
+    "startPrepare": "2024-08-08T08:16:42.1281084",
+    "receiptCode": null,
+    "transactionCode": null,
+    "operatingSystem": null,
+    "deviceType": null,
+    "rejectedDateByRestaurant": null,
+    "rejectReason": null,
+    "driverName": null,
+    "driverPhoneNumber": null,
+    "driverImage": null,
+    "timeToUser": 0,
+    "userFeedBack": false,
+    "donePrepare": "2024-08-08T08:16:59.0794322",
+    "driverDescription": null,
+    "appVersion": null,
+    "creditCardToken": null,
+    "cardYear": null,
+    "cardMonth": null,
+    "phoneNumber": null,
+    "userName": null,
+    "email": null,
+    "payRestaurant": 0.0,
+    "getFromClient": 0.0,
+    "deliveryType": 2,
+    "restaurantDetail": {
+      "details": {
+        "id": 5125,
+        "name": "QA testing ob",
+        "name_AR": "QA testing ob",
+        "name_HE": "QA testing ob",
+        "name_EN": "QA testing ob",
+        "address": "Um-Alfahem",
+        "address_AR": "Um-Alfahem",
+        "address_HE": "Um-Alfahem",
+        "address_EN": "Um-Alfahem",
+        "latitude": 32.53694140122201,
+        "longitude": 35.14372426230966,
+        "havePrivateDelivery": false,
+        "phoneNumber": "972521234567",
+        "priority": 0,
+        "restaurantCategoryId": 0,
+        "images": [
+          {
+            "id": 8816,
+            "serverImageUrl": "images/Business/Banners/QL157GYN20240206120402.jpg",
+            "smallImageUrl": "images/Business/Banners/QL157GYN_20240206120402_small.jpg",
+            "priority": 0
+          }
+        ],
+        "workingHours": [
+          {
+            "dayOfWeek": 6,
+            "fromHour": 420,
+            "toHour": 825,
+            "fromHourDate": "2000-01-01T07:00:00",
+            "toHourDate": "2000-01-01T13:45:00"
+          },
+          {
+            "dayOfWeek": 5,
+            "fromHour": 480,
+            "toHour": 1290,
+            "fromHourDate": "2000-01-01T08:00:00",
+            "toHourDate": "2000-01-01T21:30:00"
+          },
+          {
+            "dayOfWeek": 7,
+            "fromHour": 540,
+            "toHour": 795,
+            "fromHourDate": "2000-01-01T09:00:00",
+            "toHourDate": "2000-01-01T13:15:00"
+          },
+          {
+            "dayOfWeek": 4,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 1,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 2,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 3,
+            "fromHour": 210,
+            "toHour": 1170,
+            "fromHourDate": "2000-01-01T03:30:00",
+            "toHourDate": "2000-01-01T19:30:00"
+          }
+        ],
+        "icon": "images/BusinessIcons/020240206120051.jpg",
+        "smallIcon": "images/BusinessIcons/0_20240206120051_small.jpg",
+        "status": 1
+      },
+      "meals": [
+        {
+          "id": 628832,
+          "quantity": 1,
+          "mealContents": [
+            {
+              "id": 314161,
+              "type": 1,
+              "price": 0.0,
+              "smallImageUrl": "images/MealContents/a4b269f2-581b-4154-8ca5-bf051a2fd723.jpg20201122064738_small.jpg",
+              "serverImageUrl": "images/MealContents/a4b269f2-581b-4154-8ca5-bf051a2fd723.jpg20201122064738.jpg",
+              "name": "صلصة زاتشي",
+              "name_AR": "صلصة زاتشي",
+              "name_EN": "Zachi Sauce",
+              "name_HE": "רוטב זאצ׳י",
+              "name_FR": null,
+              "qty": 1,
+              "mealContentType": 0,
+              "group": 2,
+              "priority": 14,
+              "hideExtra": true,
+              "isPizza": false,
+              "mealContentPrinting": 0
+            },
+            {
+              "id": 314160,
+              "type": 1,
+              "price": 0.0,
+              "smallImageUrl": "images/MealContents/7389_20211121102108_small.jpg",
+              "serverImageUrl": "images/MealContents/738920211121122108.jpg",
+              "name": "خس",
+              "name_AR": "خس",
+              "name_EN": "Lettuce",
+              "name_HE": "חסה",
+              "name_FR": null,
+              "qty": 1,
+              "mealContentType": 0,
+              "group": 2,
+              "priority": 13,
+              "hideExtra": true,
+              "isPizza": false,
+              "mealContentPrinting": 0
+            },
+            {
+              "id": 314159,
+              "type": 1,
+              "price": 0.0,
+              "smallImageUrl": "images/MealContents/c5fa20fc-129f-4857-8cf2-b372cbb99fad.jpg20201011112047_small.jpg",
+              "serverImageUrl": "images/MealContents/c5fa20fc-129f-4857-8cf2-b372cbb99fad.jpg20201011112047.jpg",
+              "name": "بندورة",
+              "name_AR": "بندورة",
+              "name_EN": "Tomato",
+              "name_HE": "עגבניה",
+              "name_FR": null,
+              "qty": 1,
+              "mealContentType": 0,
+              "group": 2,
+              "priority": 11,
+              "hideExtra": true,
+              "isPizza": false,
+              "mealContentPrinting": 0
+            },
+            {
+              "id": 314158,
+              "type": 1,
+              "price": 0.0,
+              "smallImageUrl": "images/MealContents/7391_20210907074217_small.jpg",
+              "serverImageUrl": "images/MealContents/739120210907104217.jpg",
+              "name": "مخلل",
+              "name_AR": "مخلل",
+              "name_EN": "Pickles",
+              "name_HE": "מלפפון חמוץ",
+              "name_FR": null,
+              "qty": 1,
+              "mealContentType": 0,
+              "group": 2,
+              "priority": 12,
+              "hideExtra": true,
+              "isPizza": false,
+              "mealContentPrinting": 0
+            },
+            {
+              "id": 314157,
+              "type": 1,
+              "price": 0.0,
+              "smallImageUrl": "images/MealContents/7392_20211121102121_small.jpg",
+              "serverImageUrl": "images/MealContents/739220211121122121.jpg",
+              "name": "بصل أحمر",
+              "name_AR": "بصل أحمر",
+              "name_EN": "Red Onion",
+              "name_HE": "בצל סגול",
+              "name_FR": null,
+              "qty": 1,
+              "mealContentType": 0,
+              "group": 2,
+              "priority": 10,
+              "hideExtra": true,
+              "isPizza": false,
+              "mealContentPrinting": 0
+            },
+            {
+              "id": 314095,
+              "type": 1,
+              "price": 0.0,
+              "smallImageUrl": "images/MealContents/46856_20220125085340_small.jpg",
+              "serverImageUrl": "images/MealContents/4685620220125085340.jpg",
+              "name": "خبز عادي",
+              "name_AR": "خبز عادي",
+              "name_EN": "White Bun",
+              "name_HE": "לחם רגיל",
+              "name_FR": null,
+              "qty": 1,
+              "mealContentType": 0,
+              "group": 1,
+              "priority": 0,
+              "hideExtra": true,
+              "isPizza": false,
+              "mealContentPrinting": 0
+            }
+          ],
+          "smallImage": "images/Meals/55720210522131033.jpg",
+          "price": 37.0,
+          "serverImage": "images/Meals/55720210522131033.jpg",
+          "blurhash": "",
+          "name": "Chicken برجر (شنيتسل)",
+          "name_AR": "Chicken برجر (شنيتسل)",
+          "name_EN": "Chicken Burger (Schnitzel)",
+          "name_HE": "בורגר (שניצל)CHICKEN",
+          "name_FR": "",
+          "namesDictionary": null,
+          "isPizza": false,
+          "prioirty": 0,
+          "mealTypePriority": 24,
+          "isPartialMealContentPricing": true,
+          "finalPriceToDisplay": 37.0,
+          "finalPriceOfExtrasToDisplay": 0.0,
+          "finalPriceWithExtrasToDisplay": 37.0
+        }
+      ],
+      "deals": [],
+      "products": []
+    },
+    "tokenCardType": 0,
+    "areaId": null,
+    "locationAccuracy": null,
+    "serviceFee": 0.0,
+    "paymentMethodId": null,
+    "deliveryFeeDetails": {
+      "taskCost": 0.0,
+      "userFee": 0.0,
+      "originalUserFee": 0.0,
+      "userExtraFees": [],
+      "restaurantFeeCoverage": 0.0,
+      "haatMarketingFeeCoverage": 0.0,
+      "haatOperationFeeCoverage": 0.0,
+      "userPricingModel": 0,
+      "driverPricingModel": 0
+    },
+    "l4digits": null,
+    "currencyData": {
+      "symbol": "NIS",
+      "names": {
+        "ar": "شاقل",
+        "en-US": "Shekel",
+        "he": "שקל"
+      }
+    },
+    "isCibus": false,
+    "remakeDetails": null,
+    "isRemake": false,
+    "isCanceled": false,
+    "cancellationReason": null,
+    "cocaColaCampaignDetails": {
+      "hasCocaColaBrand": false,
+      "isDone": false
+    },
+    "productReplacementSuggestions": [],
+    "customerNotes": null,
+    "posOrderId": null,
+    "credits": 0.0,
+    "scheduledOrderDetails": null,
+    "invoices": [],
+    "referenceNumber": null
+  },
+  {
+    "id": 5875974,
+    "longitude": 0.0,
+    "paymentMethod": 1,
+    "latitude": 0.0,
+    "companyId": 0,
+    "driverId": null,
+    "price": 4.0,
+    "orderDate": "2024-08-08T08:12:57.3954845",
+    "acceptedDate": null,
+    "pickedDate": null,
+    "arriveDate": null,
+    "meals": null,
+    "deals": null,
+    "estimationTime": 5,
+    "driverPrice": 0.0,
+    "restaurantPrice": 4.0,
+    "address": null,
+    "withDriver": false,
+    "restaurantIds": null,
+    "discount": null,
+    "couponCode": null,
+    "restaurantId": 5164,
+    "startPrepare": "2024-08-08T08:12:59.8496366",
+    "receiptCode": 30910,
+    "transactionCode": "204460541",
+    "operatingSystem": null,
+    "deviceType": null,
+    "rejectedDateByRestaurant": null,
+    "rejectReason": null,
+    "driverName": null,
+    "driverPhoneNumber": null,
+    "driverImage": null,
+    "timeToUser": 0,
+    "userFeedBack": false,
+    "donePrepare": "2024-08-08T08:12:59.8496366",
+    "driverDescription": null,
+    "appVersion": null,
+    "creditCardToken": null,
+    "cardYear": null,
+    "cardMonth": null,
+    "phoneNumber": null,
+    "userName": null,
+    "email": null,
+    "payRestaurant": 0.0,
+    "getFromClient": 0.0,
+    "deliveryType": 2,
+    "restaurantDetail": {
+      "details": {
+        "id": 5164,
+        "name": "أرين",
+        "name_AR": "أرين",
+        "name_HE": "ארין",
+        "name_EN": "Areen",
+        "address": "أم الفحم",
+        "address_AR": "أم الفحم",
+        "address_HE": "אום אלפחם",
+        "address_EN": "UAF",
+        "latitude": 32.538545880102056,
+        "longitude": 35.14586647133451,
+        "havePrivateDelivery": false,
+        "phoneNumber": "972506456059",
+        "priority": 0,
+        "restaurantCategoryId": 0,
+        "images": [
+          {
+            "id": 8831,
+            "serverImageUrl": "images/Market/BannerImages/883120240806085943.jpg",
+            "smallImageUrl": "images/Market/BannerImages/8831_20240806085943_small.jpg",
+            "priority": 0
+          }
+        ],
+        "workingHours": [
+          {
+            "dayOfWeek": 1,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 2,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 3,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 4,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 5,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 6,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          },
+          {
+            "dayOfWeek": 7,
+            "fromHour": 121,
+            "toHour": 120,
+            "fromHourDate": "2000-01-01T02:01:00",
+            "toHourDate": "2000-01-02T02:00:00"
+          }
+        ],
+        "icon": "images/Market/icons/markets516420240806085449_original.jpg",
+        "smallIcon": "images/Market/icons/markets516420240806085449_auto_quality.jpg",
+        "status": 4
+      },
+      "meals": [],
+      "deals": [],
+      "products": [
+        {
+          "id": 199715,
+          "name": {
+            "ar": "سيريال ببجي موبايل العالمية ب 60 شدة",
+            "en-US": "سيريال ببجي موبايل العالمية ب 60 شدة",
+            "he": "سيريال ببجي موبايل العالمية ب 60 شدة"
+          },
+          "productImages": [
+            {
+              "id": 0,
+              "priority": 0,
+              "serverImageUrl": "images/Products/215609/Images/21560920240806084916_original.jpg",
+              "smallImageUrl": "images/Products/215609/Images/21560920240806084916_auto_quality.jpg",
+              "blurhash": "LHAw6jxVD*kX_4%2RPWYA0x]$yWA"
+            }
+          ],
+          "discountPercentage": 0.0,
+          "discountPrice": 4.0,
+          "price": 4.0,
+          "quantity": 1,
+          "orderProductColors": null,
+          "orderProductSizes": null,
+          "orderProductFeatures": [],
+          "orderId": 5875974,
+          "productId": 215609,
+          "supportDynamicPricing": false,
+          "orderProductWeightUpdate": null,
+          "dynamicWeightDetails": {
+            "quantityType": 0,
+            "avgWeightPerItem": null,
+            "pricePerWeight": null,
+            "weightToPresent": null,
+            "unitDetails": {
+              "stepSize": 0.0,
+              "unitType": 0
+            }
+          },
+          "notAvailable": null,
+          "productReplacement": null,
+          "isBigItem": false,
+          "finalWeight": 0.0,
+          "finalPrice": 0.0,
+          "finalWeightToDisplay": 0.0,
+          "finalPriceToDisplay": 4.0,
+          "strikedPriceToDisplay": null,
+          "finalPriceOfExtrasToDisplay": 0.0,
+          "finalPriceWithExtrasToDisplay": 4.0,
+          "quantityTypeToDisplay": 0,
+          "unitTypeToDisplay": 0,
+          "weightBeforeUpdateToDisplay": null,
+          "priceBeforeUpdateToDisplay": null,
+          "strikedPriceBeforeUpdateToDisplay": null,
+          "dealProduct": null,
+          "orderDealProductId": null
+        }
+      ]
+    },
+    "tokenCardType": 0,
+    "areaId": null,
+    "locationAccuracy": null,
+    "serviceFee": 0.0,
+    "paymentMethodId": null,
+    "deliveryFeeDetails": {
+      "taskCost": 0.0,
+      "userFee": 0.0,
+      "originalUserFee": 0.0,
+      "userExtraFees": [],
+      "restaurantFeeCoverage": 0.0,
+      "haatMarketingFeeCoverage": 0.0,
+      "haatOperationFeeCoverage": 0.0,
+      "userPricingModel": 0,
+      "driverPricingModel": 0
+    },
+    "l4digits": "2218",
+    "currencyData": {
+      "symbol": "NIS",
+      "names": {
+        "ar": "شاقل",
+        "en-US": "Shekel",
+        "he": "שקל"
+      }
+    },
+    "isCibus": false,
+    "remakeDetails": null,
+    "isRemake": false,
+    "isCanceled": false,
+    "cancellationReason": null,
+    "cocaColaCampaignDetails": {
+      "hasCocaColaBrand": false,
+      "isDone": false
+    },
+    "productReplacementSuggestions": [],
+    "customerNotes": null,
+    "posOrderId": null,
+    "credits": 0.0,
+    "scheduledOrderDetails": null,
+    "invoices": [
+      {
+        "link": "https://im-staging.haat.delivery/invoices/7fcbac66-9c3a-4b3f-a8db-9319f56819c9.pdf",
+        "title": {
+          "ar": "تحميل فاتورة الطلبية",
+          "en-US": "Download the order invoice",
+          "he": "הורד חשבונית ההזמנה",
+          "fr": "Téléchargez la facture de commande"
+        }
+      }
+    ],
+    "referenceNumber": 30910
+  }
+]
