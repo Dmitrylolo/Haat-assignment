@@ -6,6 +6,7 @@ import { Example, Startup } from '@/screens';
 import { useTheme } from '@/theme';
 
 import type { RootStackParamList } from '@/types/navigation';
+import BottomTabsNavigator from './BottomTabs';
 
 const Stack = createStackNavigator<RootStackParamList>();
 
@@ -17,7 +18,7 @@ function ApplicationNavigator() {
 			<NavigationContainer theme={navigationTheme}>
 				<Stack.Navigator key={variant} screenOptions={{ headerShown: false }}>
 					<Stack.Screen name="Startup" component={Startup} />
-					<Stack.Screen name="Example" component={Example} />
+					<Stack.Screen name="Example" component={BottomTabsNavigator} />
 				</Stack.Navigator>
 			</NavigationContainer>
 		</SafeAreaProvider>

@@ -15,13 +15,16 @@ import { ImageVariant } from '@/components/atoms';
 import { Brand } from '@/components/molecules';
 import { SafeScreen } from '@/components/template';
 import { useTheme } from '@/theme';
-import { fetchOne } from '@/services/users';
+import { fetchOne } from '@/services/api/users';
 
 import { isImageSourcePropType } from '@/types/guards/image';
 
 import SendImage from '@/theme/assets/images/send.png';
 import ColorsWatchImage from '@/theme/assets/images/colorswatch.png';
 import TranslateImage from '@/theme/assets/images/translate.png';
+
+
+
 
 function Example() {
 	const { t } = useTranslation(['example', 'welcome']);
@@ -121,7 +124,7 @@ function Example() {
 						<TouchableOpacity
 							testID="fetch-user-button"
 							style={[components.buttonCircle, gutters.marginBottom_16]}
-							onPress={() => setCurrentId(Math.ceil(Math.random() * 10 + 1))}
+							onPress={() => { }}
 						>
 							{isFetching ? (
 								<ActivityIndicator />
@@ -136,7 +139,7 @@ function Example() {
 						<TouchableOpacity
 							testID="change-theme-button"
 							style={[components.buttonCircle, gutters.marginBottom_16]}
-							onPress={() => onChangeTheme()}
+							onPress={() => { }}
 						>
 							<ImageVariant
 								source={ColorsWatchImage}

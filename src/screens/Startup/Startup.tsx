@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { ActivityIndicator, Text, View } from 'react-native';
 import { useQuery } from '@tanstack/react-query';
 import { useTranslation } from 'react-i18next';
+//@ts-ignore
 import { CommonActions } from '@react-navigation/native';
 
 import { useTheme } from '@/theme';
@@ -9,17 +10,25 @@ import { Brand } from '@/components/molecules';
 import { SafeScreen } from '@/components/template';
 
 import type { RootScreenProps } from '@/types/navigation';
+import { getMarket } from '@/services/api/market';
 
 function Startup({ navigation }: RootScreenProps<'Startup'>) {
 	const { layout, gutters, fonts } = useTheme();
 	const { t } = useTranslation(['startup']);
 
-	const { isSuccess, isFetching, isError } = useQuery({
+	const { isSuccess, isFetching, isError, data, error } = useQuery({
 		queryKey: ['startup'],
 		queryFn: () => {
-			return Promise.resolve(true);
+			return getMarket();
 		},
 	});
+
+	console.log(error);
+	console.log(data);
+
+	console.log(isSuccess);
+	console.log(isFetching);
+	console.log(isError);
 
 	useEffect(() => {
 		if (isSuccess) {
