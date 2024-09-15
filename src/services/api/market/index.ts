@@ -1,1 +1,1 @@
-export { default as getMarket } from './getMarket';
+export { default as getMarket } from "./getMarket";

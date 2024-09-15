@@ -1,2 +1,2 @@
-export { default as Startup } from './Startup/Startup';
-export { default as Example } from './Example/MQTT';
+export { default as Startup } from "./Startup/Startup";
+export { default as Example } from "./Example/MQTT";

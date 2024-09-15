@@ -1,41 +1,20 @@
 {
   "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
-    "types": [
-      "jest",
-      "node"
-    ],
+    "types": ["jest", "node"],
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@api/*": [
-        "./src/services/api/*"
-      ],
-      "@theme/*": [
-        "./src/theme/*"
-      ],
-      "@types/*": [
-        "./src/types/*"
-      ],
-      "@schemas/*": [
-        "./src/types/schemas/*"
-      ],
-      "@utils/*": [
-        "./src/utils/*"
-      ],
-      "@screens/*": [
-        "./src/screens/*"
-      ],
-      "@components/*": [
-        "./src/components/*"
-      ],
-      "@services/*": [
-        "./src/services/*"
-      ],
+      "@/*": ["./src/*"],
+      "@api/*": ["./src/services/api/*"],
+      "@theme/*": ["./src/theme/*"],
+      "@types/*": ["./src/types/*"],
+      "@schemas/*": ["./src/types/schemas/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@screens/*": ["./src/screens/*"],
+      "@components/*": ["./src/components/*"],
+      "@services/*": ["./src/services/*"]
     },
     "allowImportingTsExtensions": false,
-    "module": "esnext",
+    "module": "esnext"
   },
   "include": [
     "./src/**/*",
@@ -45,5 +24,5 @@
     "jest.config.js",
     "babel.config.js",
     "index.js"
-  ],
+  ]
 }

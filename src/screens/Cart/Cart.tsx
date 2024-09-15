@@ -1,9 +1,11 @@
-import { View, Text } from "react-native"
+import { View, Text } from "react-native";
 
 const Cart = () => {
-    return <View>
-        <Text>Cart</Text>
+  return (
+    <View>
+      <Text>Cart</Text>
     </View>
-}
+  );
+};
 
-export default Cart
+export default Cart;

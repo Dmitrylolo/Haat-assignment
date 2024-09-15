@@ -28,7 +28,7 @@ function Startup({ navigation }: RootScreenProps<"Startup">) {
         CommonActions.reset({
           index: 0,
           routes: [{ name: "Example" }],
-        })
+        }),
       );
     }
   }, [isSuccess]);
