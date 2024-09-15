@@ -11,7 +11,8 @@
       "@utils/*": ["./src/utils/*"],
       "@screens/*": ["./src/screens/*"],
       "@components/*": ["./src/components/*"],
-      "@services/*": ["./src/services/*"]
+      "@services/*": ["./src/services/*"],
+      "@mocks/*": ["./src/mock/*"]
     },
     "allowImportingTsExtensions": false,
     "module": "esnext"
