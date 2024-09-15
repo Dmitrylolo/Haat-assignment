@@ -1,8 +1,9 @@
 import { TextStyle } from "react-native";
-import type { FontColors, FontSizes } from "@/types/theme/fonts";
-import type { UnionConfiguration } from "@/types/theme/config";
+
 import { config } from "@/theme/_config";
 
+import type { UnionConfiguration } from "@/types/theme/config";
+import type { FontColors, FontSizes } from "@/types/theme/fonts";
 export const generateFontColors = (configuration: UnionConfiguration) => {
   return Object.entries(configuration.fonts.colors ?? {}).reduce(
     (acc, [key, value]) => {
@@ -12,7 +13,7 @@ export const generateFontColors = (configuration: UnionConfiguration) => {
         },
       });
     },
-    {} as FontColors,
+    {} as FontColors
   );
 };
 
@@ -38,5 +39,8 @@ export const staticFontStyles = {
   },
   alignCenter: {
     textAlign: "center",
+  },
+  alignVerticalCenter: {
+    textAlignVertical: "center",
   },
 } as const satisfies Record<string, TextStyle>;
