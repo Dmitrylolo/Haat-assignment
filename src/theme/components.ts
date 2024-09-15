@@ -1,4 +1,5 @@
 import { ImageStyle, TextStyle, ViewStyle } from "react-native";
+
 import type { ComponentTheme } from "@/types/theme/theme";
 
 interface AllStyle
@@ -19,6 +20,10 @@ export default ({ layout, backgrounds, fonts }: ComponentTheme) => {
       borderRadius: 140,
       height: 250,
       width: 250,
+    },
+    tagImage: {
+      width: 88,
+      height: 88,
     },
   } as const satisfies AllStyle;
 };
