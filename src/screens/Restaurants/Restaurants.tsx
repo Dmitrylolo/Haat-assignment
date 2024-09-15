@@ -1,8 +1,9 @@
-import { Text, View } from "react-native";
-import { TouchableOpacity } from "react-native-gesture-handler";
+import { Text } from "react-native";
+import { ScrollView, TouchableOpacity } from "react-native-gesture-handler";
 
-import { BannerCarousel } from "@/components/molecules";
+import { BannerCarousel, Tags } from "@/components/template";
 import { useTheme } from "@/theme";
+import MARKET from "@mocks/api/market.json";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 
 import Market from "../Market/Market";
@@ -44,14 +45,14 @@ const Restaurants = () => {
   };
 
   return (
-    <View>
+    <ScrollView>
       <BannerCarousel interval={1000} banners={banners} />
-
+      <Tags tags={MARKET.tags} />
       <TouchableOpacity onPress={onChangeTheme}>
         <Text>Change theme</Text>
       </TouchableOpacity>
       <Text>Restaurants</Text>
-    </View>
+    </ScrollView>
   );
 };
 
