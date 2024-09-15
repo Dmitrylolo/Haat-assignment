@@ -1,10 +1,20 @@
 import { Text, View } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
+import { BannerCarousel } from "@/components/molecules";
 import { useTheme } from "@/theme";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 
 import Market from "../Market/Market";
+
+const bannerImage = require("../../mock/assets/Banner.png");
+const banners = [
+  bannerImage,
+  bannerImage,
+  bannerImage,
+  bannerImage,
+  bannerImage,
+];
 
 const Drawer = createDrawerNavigator();
 
@@ -35,6 +45,8 @@ const Restaurants = () => {
 
   return (
     <View>
+      <BannerCarousel interval={1000} banners={banners} />
+
       <TouchableOpacity onPress={onChangeTheme}>
         <Text>Change theme</Text>
       </TouchableOpacity>

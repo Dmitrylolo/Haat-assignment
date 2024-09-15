@@ -73,7 +73,6 @@ module.exports = {
         useTabs: true,
         arrowParens: "avoid",
         bracketSameLine: false,
-        singleQuote: true,
         trailingComma: "all",
       },
     ],

@@ -4,7 +4,6 @@ import { ActivityIndicator, Text, View } from "react-native";
 
 import { Brand } from "@/components/molecules";
 import { SafeScreen } from "@/components/template";
-import { getMarket } from "@/services/api/market";
 import { useTheme } from "@/theme";
 //@ts-ignore
 import { CommonActions } from "@react-navigation/native";
@@ -18,7 +17,8 @@ function Startup({ navigation }: RootScreenProps<"Startup">) {
   const { isSuccess, isFetching, isError, data, error } = useQuery({
     queryKey: ["startup"],
     queryFn: () => {
-      return getMarket();
+      // return getMarket();
+      return true;
     },
   });
 
@@ -28,7 +28,7 @@ function Startup({ navigation }: RootScreenProps<"Startup">) {
         CommonActions.reset({
           index: 0,
           routes: [{ name: "Example" }],
-        }),
+        })
       );
     }
   }, [isSuccess]);

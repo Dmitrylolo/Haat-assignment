@@ -1,0 +1,10 @@
+{
+  "userName": "ba8dd3c6-a042-42fe-95a8-7ea024dd23ab",
+  "clientId": "ba8dd3c6-a042-42fe-95a8-7ea024dd23ab",
+  "password": "PAsb3dVKbh",
+  "topic": "user/driver/location/39a82f2a-962a-4fed-8fd7-6d3850a6c585/#",
+  "host": "drivers-broker.haatapis.delivery",
+  "port": 8883,
+  "qos": 0,
+  "protocol": "ssl"
+}
