@@ -27,9 +27,9 @@ const colorsLight = {
 } as const;
 
 const colorsDark = {
-  grayTextTitle: "#1B1721",
+  grayTextTitle: "#e4e8de",
   grayTextSubtitle: "#54536A",
-  grayTextBody: "#211C28",
+  grayTextBody: "#dee3d7",
   grayTextCaption: "#72708F",
   white: "#FFFFFF",
   green500: "#15BC76",

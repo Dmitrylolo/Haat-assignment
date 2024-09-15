@@ -14,6 +14,7 @@ const TagName: FC<{ name: string }> = ({ name }) => {
           fonts.size_14,
           fonts.alignCenter,
           fonts.alignVerticalCenter,
+          fonts.grayTextBody,
           layout.flex_1,
         ]}
       >
