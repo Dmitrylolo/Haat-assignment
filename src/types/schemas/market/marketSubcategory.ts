@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { LocalizedStringSchema } from "../store/localizedString";
+import { LocalizedStringSchema } from "../shared/localizedString";
 import { ProductSchema } from "../store/product";
 
 export const MarketSubcategorySchema = z.object({

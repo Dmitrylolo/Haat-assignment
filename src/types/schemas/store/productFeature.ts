@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { LocalizedStringSchema } from "./localizedString";
+import { LocalizedStringSchema } from "../shared/localizedString";
 
 export const ProductFeatureItemSchema = z.object({
   id: z.number(),

@@ -1,7 +1,7 @@
 import { z } from "zod";
 
+import { LocalizedStringSchema } from "../shared/localizedString";
 import { DynamicWeightDetailsSchema } from "./dynamicWeightDetails";
-import { LocalizedStringSchema } from "./localizedString";
 import { ProductDynamicWeightDataSchema } from "./productDynamicWeightData";
 import { ProductFeatureSchema } from "./productFeature";
 import { ProductImageSchema } from "./productImage";

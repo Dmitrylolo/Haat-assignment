@@ -1,6 +1,6 @@
+export { ImageSchema } from "../shared/image";
+export { LocalizedStringSchema } from "../shared/localizedString";
 export { DynamicWeightDetailsSchema } from "./dynamicWeightDetails";
-export { ImageSchema } from "./image";
-export { LocalizedStringSchema } from "./localizedString";
 export { ProductSchema } from "./product";
 export { ProductDynamicWeightDataSchema } from "./productDynamicWeightData";
 export {

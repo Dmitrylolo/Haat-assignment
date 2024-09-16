@@ -1,3 +1,3 @@
-import { ImageSchema } from "./image";
+import { ImageSchema } from "../shared/image";
 
 export const ProductImageSchema = ImageSchema;
