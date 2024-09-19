@@ -77,3 +77,13 @@ yarn-error.log
 # Security
 .env
 src/services/mock/mqtt.json
+src/types/schemas/~temp/dynamicWeight.ts
+src/types/schemas/~temp/feature.ts
+src/types/schemas/~temp/image.ts
+src/types/schemas/~temp/index.ts
+src/types/schemas/~temp/localizedString.ts
+src/types/schemas/~temp/market.ts
+src/types/schemas/~temp/order.ts
+src/types/schemas/~temp/product.ts
+src/types/schemas/~temp/store.ts
+src/types/schemas/~temp/user.ts

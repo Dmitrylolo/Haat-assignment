@@ -31,6 +31,7 @@ const colorsDark = {
   grayTextSubtitle: "#54536A",
   grayTextBody: "#dee3d7",
   grayTextCaption: "#72708F",
+  grayBorderSubtle: "#EBEBEF",
   white: "#FFFFFF",
   green500: "#15BC76",
   apricot500: "#DE7D54",

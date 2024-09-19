@@ -7,8 +7,9 @@ const TagName: FC<{ name: string }> = ({ name }) => {
   const { fonts, layout } = useTheme();
 
   return (
-    <View style={layout.flex_1}>
+    <View style={layout.flex_1} testID="tag-name-wrapper">
       <Text
+        testID="tag-name"
         style={[
           fonts.bold,
           fonts.size_14,

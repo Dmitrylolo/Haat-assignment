@@ -6,7 +6,10 @@ import type { FC } from "react";
 const TagsTitle: FC<{ title: string }> = ({ title }) => {
   const { fonts } = useTheme();
   return (
-    <Text style={[fonts.size_16, fonts.bold, fonts.grayTextTitle]}>
+    <Text
+      testID="tags-title"
+      style={[fonts.size_16, fonts.bold, fonts.grayTextTitle]}
+    >
       {title}
     </Text>
   );

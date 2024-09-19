@@ -1,4 +1,4 @@
-import { userSchema } from "@/types/schemas/user";
+import { userSchema } from "@/types/schemas/~temp/user";
 import { instance } from "@api/instance";
 
 export default async (id: number) => {

@@ -281,6 +281,13 @@ interface StoreRating {
   numberOfRatings: string;
 }
 
+type CategoryStore = Store | StoreElement;
+
+interface Labels {
+  text: string;
+  labelType: string;
+}
+
 interface Store {
   storeId: number;
   name: string;
@@ -289,7 +296,7 @@ interface Store {
   distance: number;
   icon: Image;
   rating?: StoreRating | null;
-  labels: any[];
+  labels?: Labels[];
   closestWorkingHour?: string | null;
   is24Hours: boolean;
   priority: number;
@@ -323,7 +330,7 @@ interface Category {
   isSponsored?: boolean;
   viewAll?: boolean;
   backgroundColor?: string | null;
-  stores: StoreElement[];
+  stores: CategoryStore[];
 }
 
 interface MainPageBanners {

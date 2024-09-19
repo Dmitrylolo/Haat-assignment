@@ -1,7 +1,7 @@
 import { Text } from "react-native";
 import { ScrollView, TouchableOpacity } from "react-native-gesture-handler";
 
-import { BannerCarousel, Tags } from "@/components/template";
+import { BannerCarousel, Categories, Tags } from "@/components/template";
 import { useTheme } from "@/theme";
 import MARKET from "@mocks/api/market.json";
 import { createDrawerNavigator } from "@react-navigation/drawer";
@@ -43,7 +43,10 @@ const Restaurants = () => {
   const onChangeTheme = () => {
     changeTheme(variant === "default" ? "dark" : "default");
   };
-
+  const elementTypes = new Set(
+    MARKET.categories.map((category) => category.elementType)
+  );
+  console.log(elementTypes);
   return (
     <ScrollView>
       <BannerCarousel interval={1000} banners={banners} />
@@ -51,9 +54,10 @@ const Restaurants = () => {
       <TouchableOpacity onPress={onChangeTheme}>
         <Text>Change theme</Text>
       </TouchableOpacity>
-      <Text>Restaurants</Text>
+
+      <Categories categories={MARKET.categories} />
     </ScrollView>
   );
 };
 
-export default RestaurantsDrawer;
+export default Restaurants;

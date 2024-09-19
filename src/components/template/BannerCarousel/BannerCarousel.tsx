@@ -14,7 +14,6 @@ const BannerCarousel = ({ interval, banners }: Banner) => {
 
   //     return () => clearInterval(intervalId);
   //   }, [banners, interval]);
-  console.log(banners);
   return (
     <ScrollView
       style={[styles.container]}

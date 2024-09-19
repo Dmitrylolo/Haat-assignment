@@ -1,13 +1,15 @@
-import { TouchableOpacity } from "react-native";
+import { ListRenderItem, TouchableOpacity } from "react-native";
 
 import { TagImage, TagName } from "@/components/atoms";
 
-import type { FC } from "react";
-const Tag: FC<{ tag: Tag }> = ({ tag }) => {
+const Tag: ListRenderItem<Tag> = ({ item }) => {
   return (
-    <TouchableOpacity style={{ width: 88, alignContent: "center" }}>
-      <TagImage image={tag.images.serverImage} />
-      <TagName name={tag.name} />
+    <TouchableOpacity
+      testID="tag-item"
+      style={{ width: 88, alignContent: "center" }}
+    >
+      <TagImage image={item.images?.serverImage} />
+      <TagName name={item.name} />
     </TouchableOpacity>
   );
 };

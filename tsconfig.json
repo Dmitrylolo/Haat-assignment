@@ -3,6 +3,7 @@
   "compilerOptions": {
     "types": ["jest", "node"],
     "paths": {
+      "@lib/*": ["./lib/*"],
       "@/*": ["./src/*"],
       "@api/*": ["./src/services/api/*"],
       "@theme/*": ["./src/theme/*"],
@@ -13,7 +14,12 @@
       "@components/*": ["./src/components/*"],
       "@services/*": ["./src/services/*"],
       "@mocks/*": ["./src/mock/*"],
-      "@shemas/*": ["./src/types/schemas/*"]
+      "@shemas/*": ["./src/types/schemas/*"],
+      "@molecules/*": ["./src/components/molecules/*"],
+      "@organisms/*": ["./src/components/organisms/*"],
+      "@templates/*": ["./src/components/template/*"],
+      "@atoms/*": ["./src/components/atoms/*"],
+      "@hooks/*": ["./src/hooks/*"]
     },
     "allowImportingTsExtensions": false,
     "module": "esnext"
